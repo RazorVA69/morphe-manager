@@ -1184,14 +1184,13 @@ morphe_header_custom_dark.png
     <string name="install_update_manager_failed">アップデートのインストールに失敗しました</string>
     <string name="installing_manager_update">アップデートをインストールしています…</string>
     <string name="downloading_manager_update">アップデートをダウンロードしています…</string>
-    <!-- Shown while resuming a download, before the total size is known -->
+    <!-- Shown while downloading, before the total size is known -->
     <string name="manager_update_progress_downloaded">%1$.1f MB ダウンロード済み</string>
     <string name="manager_update_not_ready">このリリースはまだ公開中です。しばらくしてから再度お試しください</string>
     <string name="update_download_missing">ダウンロードしたアップデートは利用できなくなりました。再度ダウンロードしてください。</string>
     <string name="download_manager_failed">アップデートのダウンロードに失敗しました: %s</string>
     <string name="failed_to_check_updates">アップデートの確認に失敗しました: %s</string>
     <string name="failed_to_download_update">アップデートのダウンロードに失敗しました: %s</string>
-    <string name="resume_download">ダウンロードを再開</string>
     <string name="download_confirmation_metered">"現在、従量制接続を使用しています。通信事業者から追加料金が発生する場合があります。
 
 それでも続行しますか？"</string>

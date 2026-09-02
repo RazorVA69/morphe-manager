@@ -1187,14 +1187,13 @@ morphe_header_custom_dark.png
     <string name="install_update_manager_failed">Η εγκατάσταση της ενημέρωσης απέτυχε</string>
     <string name="installing_manager_update">Εγκατάσταση ενημέρωσης…</string>
     <string name="downloading_manager_update">Λήψη ενημέρωσης…</string>
-    <!-- Shown while resuming a download, before the total size is known -->
+    <!-- Shown while downloading, before the total size is known -->
     <string name="manager_update_progress_downloaded">%1$.1f MB κατεβάζονται</string>
     <string name="manager_update_not_ready">Αυτή η έκδοση δημοσιεύεται ακόμα. Επαναλάβετε σε λίγα λεπτά</string>
     <string name="update_download_missing">Η ληφθείσα ενημέρωση δεν είναι πλέον διαθέσιμη. Κατεβάστε την ξανά</string>
     <string name="download_manager_failed">Αποτυχία λήψης ενημέρωσης: %s</string>
     <string name="failed_to_check_updates">Ο έλεγχος για ενημερώσεις απέτυχε: %s</string>
     <string name="failed_to_download_update">Η λήψη ενημέρωσης απέτυχε: %s</string>
-    <string name="resume_download">Συνέχιση λήψης</string>
     <string name="download_confirmation_metered">"Είστε συνδεδεμένοι σε σύνδεση με ογκοχρέωση και ενδέχεται να ισχύουν χρεώσεις δεδομένων από τον πάροχο υπηρεσιών σας.
 
 Θέλετε ακόμα να συνεχίσετε;"</string>

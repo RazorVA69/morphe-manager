@@ -1186,14 +1186,13 @@ Podrobnosti: %2$s"</string>
     <string name="install_update_manager_failed">Nepodarilo sa nainštalovať aktualizáciu</string>
     <string name="installing_manager_update">Inštalácia aktualizácie…</string>
     <string name="downloading_manager_update">Sťahovanie aktualizácie…</string>
-    <!-- Shown while resuming a download, before the total size is known -->
+    <!-- Shown while downloading, before the total size is known -->
     <string name="manager_update_progress_downloaded">Stiahnuté %1$.1f MB</string>
     <string name="manager_update_not_ready">Toto vydanie sa stále publikuje. Skúste to znova o niekoľko minút</string>
     <string name="update_download_missing">Stiahnutá aktualizácia už nie je k dispozícii. Stiahnite si ju znova.</string>
     <string name="download_manager_failed">Nepodarilo sa stiahnuť aktualizáciu: %s</string>
     <string name="failed_to_check_updates">Nepodarilo sa skontrolovať aktualizácie: %s</string>
     <string name="failed_to_download_update">Nepodarilo sa stiahnuť aktualizáciu: %s</string>
-    <string name="resume_download">Pokračovať v sťahovaní</string>
     <string name="download_confirmation_metered">"Aktuálne požívate dátové pripojenie s obmedzeným objemom a váš poskytovateľ služieb vám môže účtovať poplatky za prenos dát.
 
 Chcete aj tak pokračovať?"</string>

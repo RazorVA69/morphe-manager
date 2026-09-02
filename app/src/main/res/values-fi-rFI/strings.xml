@@ -1185,14 +1185,13 @@ Yksityiskohdat: %2$s"</string>
     <string name="install_update_manager_failed">Päivityksen asentaminen epäonnistui</string>
     <string name="installing_manager_update">Asennetaan päivitystä…</string>
     <string name="downloading_manager_update">Ladataan päivitystä…</string>
-    <!-- Shown while resuming a download, before the total size is known -->
+    <!-- Shown while downloading, before the total size is known -->
     <string name="manager_update_progress_downloaded">%1$.1f MB ladattu</string>
     <string name="manager_update_not_ready">Tätä julkaisua julkaistaan vielä. Yritä uudelleen muutaman minuutin kuluttua</string>
     <string name="update_download_missing">Ladattu päivitys ei ole enää saatavilla. Lataa se uudelleen</string>
     <string name="download_manager_failed">Päivityksen lataaminen epäonnistui: %s</string>
     <string name="failed_to_check_updates">Päivitysten tarkistaminen epäonnistui: %s</string>
     <string name="failed_to_download_update">Päivityksen lataaminen epäonnistui: %s</string>
-    <string name="resume_download">Jatka lataamista</string>
     <string name="download_confirmation_metered">"Olet tällä hetkellä rajoitetussa yhteydessä, ja palveluntarjoajasi datamaksuja voidaan soveltaa.
 
 Haluatko silti jatkaa?"</string>

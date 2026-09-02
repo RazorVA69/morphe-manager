@@ -1186,14 +1186,13 @@ Detaljer: %2$s"</string>
     <string name="install_update_manager_failed">Kunne ikke installere oppdatering</string>
     <string name="installing_manager_update">Installerer oppdatering…</string>
     <string name="downloading_manager_update">Laster ned oppdatering…</string>
-    <!-- Shown while resuming a download, before the total size is known -->
+    <!-- Shown while downloading, before the total size is known -->
     <string name="manager_update_progress_downloaded">%1$.1f MB lastet ned</string>
     <string name="manager_update_not_ready">Denne utgivelsen er fortsatt under publisering. Prøv igjen om noen minutter</string>
     <string name="update_download_missing">Den nedlastede oppdateringen er ikke lenger tilgjengelig. Last den ned igjen.</string>
     <string name="download_manager_failed">Kunne ikke laste ned oppdatering: %s</string>
     <string name="failed_to_check_updates">Kunne ikke sjekke etter oppdateringer: %s</string>
     <string name="failed_to_download_update">Kunne ikke laste ned oppdatering: %s</string>
-    <string name="resume_download">Fortsett nedlasting</string>
     <string name="download_confirmation_metered">"Du er for øyeblikket på en datamålt tilkobling, og datakostnader fra din tjenesteleverandør kan påløpe.
 
 Vil du likevel fortsette?"</string>

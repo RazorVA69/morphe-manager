@@ -1180,14 +1180,13 @@ Ma’lumotlar: %2$s"</string>
     <string name="install_update_manager_failed">Yangilanishni o‘rnatishda xatolik</string>
     <string name="installing_manager_update">Yangilanish o‘rnatilmoqda…</string>
     <string name="downloading_manager_update">Yangilanish yuklanmoqda…</string>
-    <!-- Shown while resuming a download, before the total size is known -->
+    <!-- Shown while downloading, before the total size is known -->
     <string name="manager_update_progress_downloaded">%1$.1f MB yuklab olindi</string>
     <string name="manager_update_not_ready">Ushbu nashr hali e\'lon qilinmoqda. Bir necha daqiqadan keyin qayta urinib ko\'ring</string>
     <string name="update_download_missing">Yuklab olingan yangilanish endi mavjud emas. Uni qayta yuklab oling.</string>
     <string name="download_manager_failed">Yangilanishni yuklab olishda xatolik: %s</string>
     <string name="failed_to_check_updates">Yangilanishlarni tekshirishda xatolik: %s</string>
     <string name="failed_to_download_update">Yangilanishni yuklab olishda xatolik: %s</string>
-    <string name="resume_download">Yuklab olishni davom ettirish</string>
     <string name="download_confirmation_metered">"Hozir siz o'lchangan ulanishdan foydalanmoqdasiz va sizning provayderingiz tomonidan ma'lumotlar uchun to'lovlar amalga oshirilishi mumkin.
 
 Davom etmoqchimisiz?"</string>

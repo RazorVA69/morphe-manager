@@ -1186,14 +1186,13 @@ Besonderhede: %2$s"</string>
     <string name="install_update_manager_failed">Kon nie opdatering installeer nie</string>
     <string name="installing_manager_update">Installeer opdatering…</string>
     <string name="downloading_manager_update">Laai opdatering af…</string>
-    <!-- Shown while resuming a download, before the total size is known -->
+    <!-- Shown while downloading, before the total size is known -->
     <string name="manager_update_progress_downloaded">%1$.1f MB afgelaai</string>
     <string name="manager_update_not_ready">Hierdie weergawe word nog steeds gepubliseer. Probeer weer oor \'n paar minute</string>
     <string name="update_download_missing">Die afgelaaide opdatering is nie meer beskikbaar nie. Laai dit weer af.</string>
     <string name="download_manager_failed">Kon nie opdatering aflaai nie: %s</string>
     <string name="failed_to_check_updates">Kon nie opdaterings nagaan nie: %s</string>
     <string name="failed_to_download_update">Kon nie opdatering aflaai nie: %s</string>
-    <string name="resume_download">Hervat aflaai</string>
     <string name="download_confirmation_metered">"Jy is tans op 'n metered verbinding, en datafooie van jou diensverskaffer kan van toepassing wees.
 
 Wil jy voortgaan?"</string>

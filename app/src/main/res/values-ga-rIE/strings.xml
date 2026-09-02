@@ -1184,14 +1184,13 @@ Sonraí: %2$s"</string>
     <string name="install_update_manager_failed">Theip ar an nuashonrú a shuiteáil</string>
     <string name="installing_manager_update">Ag suiteáil an nuashonraithe…</string>
     <string name="downloading_manager_update">Ag íoslódáil an nuashonraithe…</string>
-    <!-- Shown while resuming a download, before the total size is known -->
+    <!-- Shown while downloading, before the total size is known -->
     <string name="manager_update_progress_downloaded">%1$.1f MB íoslódáilte</string>
     <string name="manager_update_not_ready">Tá an eisiúint seo fós á foilsiú. Déan iarracht arís i gceann cúpla nóiméad.</string>
     <string name="update_download_missing">Níl an nuashonrú íoslódáilte ar fáil a thuilleadh. Íoslódáil arís é.</string>
     <string name="download_manager_failed">Theip ar an nuashonrú a íoslódáil: %s</string>
     <string name="failed_to_check_updates">Theip ar sheiceáil le haghaidh nuashonruithe: %s</string>
     <string name="failed_to_download_update">Theip ar an nuashonrú a íoslódáil: %s</string>
-    <string name="resume_download">Íoslódáil atosú</string>
     <string name="download_confirmation_metered">"Tá tú ar nasc méadraithe faoi láthair, agus d’fhéadfadh táillí sonraí a bheith i bhfeidhm ó do sholáthraí seirbhíse.
 
 Ar mhaith leat leanúint ar aghaidh fós?"</string>

@@ -1186,14 +1186,13 @@ Details: %2$s"</string>
     <string name="install_update_manager_failed">Fout bij het installeren van update</string>
     <string name="installing_manager_update">Update installeren…</string>
     <string name="downloading_manager_update">Update downloaden…</string>
-    <!-- Shown while resuming a download, before the total size is known -->
+    <!-- Shown while downloading, before the total size is known -->
     <string name="manager_update_progress_downloaded">%1$.1f MB gedownload</string>
     <string name="manager_update_not_ready">Deze release wordt nog gepubliceerd. Probeer het over enkele minuten opnieuw</string>
     <string name="update_download_missing">De gedownloade update is niet meer beschikbaar. Download deze opnieuw.</string>
     <string name="download_manager_failed">Downloaden van update mislukt: %s</string>
     <string name="failed_to_check_updates">Controleren op updates mislukt: %s</string>
     <string name="failed_to_download_update">Download van update mislukt: %s</string>
-    <string name="resume_download">Download hervatten</string>
     <string name="download_confirmation_metered">"U maakt momenteel gebruik van een datalimietverbinding en er kunnen kosten van uw serviceprovider van toepassing zijn.
 
 Wilt u toch doorgaan?"</string>

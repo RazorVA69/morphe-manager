@@ -1181,6 +1181,9 @@ Détails : %2$s"</string>
     <string name="importing_ellipsis">Importation…</string>
     <string name="imported_successfully">Importé avec succès</string>
     <string name="changelog">Voir le journal des modifications</string>
+    <string name="changelog_for_app">Changements pour %s</string>
+    <string name="changelog_general_changes">Changements généraux</string>
+    <string name="whats_new">Nouveautés</string>
     <string name="changelog_description">Découvrez les dernières modifications de cette mise à jour</string>
     <string name="changelog_download_fail">Échec du téléchargement du journal des modifications : %s</string>
     <string name="changelog_empty">Aucun journal des modifications disponible</string>
@@ -1193,14 +1196,13 @@ Détails : %2$s"</string>
     <string name="install_update_manager_failed">Échec de l\'installation de la mise à jour</string>
     <string name="installing_manager_update">Installation de la mise à jour…</string>
     <string name="downloading_manager_update">Téléchargement de la mise à jour…</string>
-    <!-- Shown while resuming a download, before the total size is known -->
+    <!-- Shown while downloading, before the total size is known -->
     <string name="manager_update_progress_downloaded">%1$.1f Mo téléchargés</string>
     <string name="manager_update_not_ready">Cette version est toujours en cours de publication. Réessayez dans quelques minutes</string>
     <string name="update_download_missing">La mise à jour téléchargée n\'est plus disponible. Téléchargez-la à nouveau</string>
     <string name="download_manager_failed">Échec du téléchargement de la mise à jour : %s</string>
     <string name="failed_to_check_updates">Échec de la vérification des mises à jour : %s</string>
     <string name="failed_to_download_update">Échec du téléchargement de la mise à jour : %s</string>
-    <string name="resume_download">Reprendre le téléchargement</string>
     <string name="download_confirmation_metered">"Vous utilisez actuellement une connexion à débit limité et des frais de données peuvent vous être facturés par votre fournisseur d'accès.
 
 Voulez-vous tout de même continuer ?"</string>

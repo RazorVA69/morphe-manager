@@ -1177,14 +1177,13 @@ Detay: %2$s"</string>
     <string name="install_update_manager_failed">Sazkirina nûvekirinê serket</string>
     <string name="installing_manager_update">Sazkirina nûvekirinê…</string>
     <string name="downloading_manager_update">Bar kirina nûvekirinê…</string>
-    <!-- Shown while resuming a download, before the total size is known -->
+    <!-- Shown while downloading, before the total size is known -->
     <string name="manager_update_progress_downloaded">%1$.1f MB hat dakêşkirin</string>
     <string name="manager_update_not_ready">Ev weşan hîn tê weşandin. Çend hûrdan piştî din bicirêbin</string>
     <string name="update_download_missing">Nûvekirina dakêşandî êdî ne berdest e. Dîsa dakêşin.</string>
     <string name="download_manager_failed">Bar kirina nûvekirinê serket: %s</string>
     <string name="failed_to_check_updates">Serketina kontrolkirina nûvekirinê: %s</string>
     <string name="failed_to_download_update">Bar kirina nûvekirinê serket: %s</string>
-    <string name="resume_download">Downloadê vegerîne</string>
     <string name="download_confirmation_metered">"Hûn niha bi komek xercxwedanê ve girêdayî ne, û xeberçewaniya xebatkarê xizmetê we bi navê we kontrol bike. 
 
 Ma hûn hê jî dixwazin dom bikevin?"</string>

@@ -1181,14 +1181,13 @@ Nánari upplýsingar: %2$s"</string>
     <string name="install_update_manager_failed">Ekki tókst að setja upp uppfærslu</string>
     <string name="installing_manager_update">Sæti uppfærslu…</string>
     <string name="downloading_manager_update">Sæki uppfærslu…</string>
-    <!-- Shown while resuming a download, before the total size is known -->
+    <!-- Shown while downloading, before the total size is known -->
     <string name="manager_update_progress_downloaded">%1$.1f MB niðurhalin</string>
     <string name="manager_update_not_ready">Þessi útgáfa er enn í útgáfuferlinu. Reyndu aftur á nokkrum mínútum</string>
     <string name="update_download_missing">Sótta uppfærslan er ekki lengur tiltæk. Sæktu hana aftur.</string>
     <string name="download_manager_failed">Ekki tókst að sækja uppfærslu: %s</string>
     <string name="failed_to_check_updates">Ekki tókst að skoða uppfærslur: %s</string>
     <string name="failed_to_download_update">Ekki tókst að sækja uppfærslu: %s</string>
-    <string name="resume_download">Endurheimta niðuhlaðningu</string>
     <string name="download_confirmation_metered">"Þú ert núna á mældri tengingu og gjalda frá þjónustuaðilum þínum gætu átt við.
 
 Haltu samt sem áður?"</string>

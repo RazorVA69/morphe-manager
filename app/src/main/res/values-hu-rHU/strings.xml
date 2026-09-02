@@ -1185,14 +1185,13 @@ Részletek: %2$s"</string>
     <string name="install_update_manager_failed">Nem sikerült telepíteni a frissítést</string>
     <string name="installing_manager_update">Frissítés telepítése…</string>
     <string name="downloading_manager_update">Frissítés letöltése…</string>
-    <!-- Shown while resuming a download, before the total size is known -->
+    <!-- Shown while downloading, before the total size is known -->
     <string name="manager_update_progress_downloaded">Letöltve: %1$.1f MB</string>
     <string name="manager_update_not_ready">A kiadás még folyamatban van. Próbálkozz néhány perc múlva újra.</string>
     <string name="update_download_missing">A letöltött frissítés már nem elérhető. Töltsd le újra.</string>
     <string name="download_manager_failed">A frissítés letöltése sikertelen: %s</string>
     <string name="failed_to_check_updates">A frissítések ellenőrzése sikertelen: %s</string>
     <string name="failed_to_download_update">A frissítés letöltése sikertelen: %s</string>
-    <string name="resume_download">Letöltés folytatása</string>
     <string name="download_confirmation_metered">"Jelenleg korlátozott adatforgalmú kapcsolatot használsz, a szolgáltatód adatforgalmi díjakat számíthat fel.
 
 Szeretnéd folytatni?"</string>

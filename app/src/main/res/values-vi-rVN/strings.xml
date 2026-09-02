@@ -1191,14 +1191,13 @@ Chi tiết: %2$s"</string>
     <string name="install_update_manager_failed">Không thể cài đặt bản cập nhật</string>
     <string name="installing_manager_update">Đang cài đặt bản cập nhật…</string>
     <string name="downloading_manager_update">Đang tải bản cập nhật…</string>
-    <!-- Shown while resuming a download, before the total size is known -->
+    <!-- Shown while downloading, before the total size is known -->
     <string name="manager_update_progress_downloaded">%1$.1f MB đã tải xuống</string>
     <string name="manager_update_not_ready">Bản phát hành này vẫn đang được đăng tải. Vui lòng thử lại sau vài phút</string>
     <string name="update_download_missing">Bản cập nhật đã tải không còn khả dụng. Hãy tải lại</string>
     <string name="download_manager_failed">Không thể tải bản cập nhật: %s</string>
     <string name="failed_to_check_updates">Không thể kiểm tra cập nhật: %s</string>
     <string name="failed_to_download_update">Không tải được bản cập nhật: %s</string>
-    <string name="resume_download">Tiếp tục tải</string>
     <string name="download_confirmation_metered">"Bạn đang dùng 4G/5G, tiếp tục có thể phát sinh cước dữ liệu.\n\nBạn vẫn muốn tiếp tục?"</string>
     <string name="download_update_confirmation">Tải bản cập nhật?</string>
     <!-- Onboarding coach marks -->

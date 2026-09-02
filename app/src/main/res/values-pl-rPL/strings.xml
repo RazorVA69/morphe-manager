@@ -1190,14 +1190,13 @@ Wymagane są następujące wymiary obrazów:
     <string name="install_update_manager_failed">Nie udało się zainstalować aktualizacji</string>
     <string name="installing_manager_update">Instalowanie aktualizacji…</string>
     <string name="downloading_manager_update">Pobieranie aktualizacji…</string>
-    <!-- Shown while resuming a download, before the total size is known -->
+    <!-- Shown while downloading, before the total size is known -->
     <string name="manager_update_progress_downloaded">Pobrano %1$.1f MB</string>
     <string name="manager_update_not_ready">To wydanie jest wciąż publikowane. Spróbuj ponownie za kilka minut</string>
     <string name="update_download_missing">Pobrana aktualizacja nie jest już dostępna. Pobierz ją ponownie.</string>
     <string name="download_manager_failed">Nie udało się pobrać aktualizacji: %s</string>
     <string name="failed_to_check_updates">Nie udało się wyszukać aktualizacji: %s</string>
     <string name="failed_to_download_update">Nie udało się pobrać aktualizacji: %s</string>
-    <string name="resume_download">Wznów pobieranie</string>
     <string name="download_confirmation_metered">"Korzystasz obecnie z połączenia z limitem danych, co może wiązać się z dodatkowymi opłatami u operatora.
 
 Czy mimo to chcesz kontynuować?"</string>

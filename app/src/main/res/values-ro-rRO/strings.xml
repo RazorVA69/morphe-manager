@@ -1185,14 +1185,13 @@ Detalii: %2$s"</string>
     <string name="install_update_manager_failed">Eroare la instalarea actualizării</string>
     <string name="installing_manager_update">Se instalează actualizarea...</string>
     <string name="downloading_manager_update">Se descarcă actualizarea...</string>
-    <!-- Shown while resuming a download, before the total size is known -->
+    <!-- Shown while downloading, before the total size is known -->
     <string name="manager_update_progress_downloaded">%1$.1f MB descărcat</string>
     <string name="manager_update_not_ready">Această versiune este încă în curs de publicare. Încearcă din nou în câteva minute</string>
     <string name="update_download_missing">Actualizarea descărcată nu mai este disponibilă. Descarc-o din nou.</string>
     <string name="download_manager_failed">Descărcarea actualizării a eșuat: %s</string>
     <string name="failed_to_check_updates">Nu s-a putut verifica existența actualizărilor: %s</string>
     <string name="failed_to_download_update">Nu s-a putut descărca actualizarea: %s</string>
-    <string name="resume_download">Reluare descărcare</string>
     <string name="download_confirmation_metered">"Sunteți conectat la o conexiune cu tarif limitat și se pot aplica costuri de date de la furnizorul dvs. de servicii.
 
 Doriți totuși să continuați?"</string>

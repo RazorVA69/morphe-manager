@@ -1197,14 +1197,13 @@ drawable-xxhdpi: 387x144 פיקסלים
     <string name="install_update_manager_failed">שגיאה בהתקנת עדכון</string>
     <string name="installing_manager_update">מתקין עדכון…</string>
     <string name="downloading_manager_update">מוריד עדכון…</string>
-    <!-- Shown while resuming a download, before the total size is known -->
+    <!-- Shown while downloading, before the total size is known -->
     <string name="manager_update_progress_downloaded">%1$.1f MB הורדו</string>
     <string name="manager_update_not_ready">גרסה זו עדיין מפורסמת. נסה שוב בעוד מספר דקות</string>
     <string name="update_download_missing">העדכון שהורד כבר אינו זמין. הורד אותו שוב</string>
     <string name="download_manager_failed">שגיאה בהורדת עדכון: %s</string>
     <string name="failed_to_check_updates">בדיקת עדכונים נכשלה: %s</string>
     <string name="failed_to_download_update">כשל בהורדת העדכון: %s</string>
-    <string name="resume_download">המשך הורדה</string>
     <string name="download_confirmation_metered">"אתה מחובר כעת לחיבור מוגבל בנפח נתונים, וייתכן שיחולו חיובי נתונים מספק השירות שלך.
 
 האם אתה עדיין רוצה להמשיך?"</string>

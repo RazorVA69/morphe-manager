@@ -1186,14 +1186,13 @@ Detalhes: %2$s"</string>
     <string name="install_update_manager_failed">Erro ao instalar a atualização</string>
     <string name="installing_manager_update">A instalar atualização…</string>
     <string name="downloading_manager_update">A transferir atualização…</string>
-    <!-- Shown while resuming a download, before the total size is known -->
+    <!-- Shown while downloading, before the total size is known -->
     <string name="manager_update_progress_downloaded">%1$.1f MB baixado</string>
     <string name="manager_update_not_ready">Este lançamento ainda está sendo publicado. Tente novamente em alguns minutos</string>
     <string name="update_download_missing">A atualização baixada não está mais disponível. Baixe-a novamente.</string>
     <string name="download_manager_failed">Erro ao transferir atualização: %s</string>
     <string name="failed_to_check_updates">Erro ao verificar por atualizações: %s</string>
     <string name="failed_to_download_update">Erro ao transferir atualização: %s</string>
-    <string name="resume_download">Continuar transferência</string>
     <string name="download_confirmation_metered">"Estás a utilizar uma ligação de dados limitados, e podem ser aplicadas cobranças de dados do teu provedor de serviços.
 
 Queres continuar na mesma?"</string>

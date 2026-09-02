@@ -1187,14 +1187,13 @@ Mga Detalye: %2$s"</string>
     <string name="install_update_manager_failed">Nabigong ma-install ang update</string>
     <string name="installing_manager_update">Ini-install ang update…</string>
     <string name="downloading_manager_update">Dina-download ang update…</string>
-    <!-- Shown while resuming a download, before the total size is known -->
+    <!-- Shown while downloading, before the total size is known -->
     <string name="manager_update_progress_downloaded">%1$.1f MB ang na-download</string>
     <string name="manager_update_not_ready">Ang paglalabas na ito ay kasalukuyang pinoproseso. Subukan muli sa loob ng ilang minuto</string>
     <string name="update_download_missing">Ang na-download na update ay hindi na magagamit. I-download muli ito.</string>
     <string name="download_manager_failed">Nabigong mai-download ang update: %s</string>
     <string name="failed_to_check_updates">Nabigong suriin ang mga update: %s</string>
     <string name="failed_to_download_update">Nabigong mai-download ang update: %s</string>
-    <string name="resume_download">Ipagpatuloy ang pag-download</string>
     <string name="download_confirmation_metered">"Kasalukuyan kang nasa isang metered na koneksyon, at maaaring malapat ang mga singil sa data mula sa iyong service provider.
 
 Gusto mo pa bang ituloy?"</string>

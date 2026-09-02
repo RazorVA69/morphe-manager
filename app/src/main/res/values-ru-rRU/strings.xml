@@ -722,7 +722,7 @@
     <string name="settings_advanced_expert_mode_dialog_title">Включить режим эксперта?</string>
     <string name="settings_advanced_expert_mode_dialog_message">Экспертный режим предоставляет больше контроля над применением патчей, но неправильная настройка параметров в экспертном режиме может привести к нетрудоспособности программы.</string>
     <string name="settings_advanced_strip_unused_libs">Оптимизация для архитектуры устройства</string>
-    <string name="settings_advanced_strip_unused_libs_description">Удаляет неиспользуемые библиотеки CPU architecture и раздельные модули APK</string>
+    <string name="settings_advanced_strip_unused_libs_description">Удаляет неиспользуемые библиотеки CPU архитектуры и раздельные модули APK</string>
     <!-- Bytecode mode -->
     <string name="settings_advanced_bytecode_mode">Режим обработки байт-кода</string>
     <string name="settings_advanced_bytecode_mode_dialog_description">Управление процессом обработки байт-кода при установке патчей. Влияет на скорость установки патчей, использование памяти и размер исходного APK</string>
@@ -911,8 +911,8 @@ morphe_header_custom_dark.png
     <string name="settings_system_notifications_ringtone_picker_title">Выберите мелодию</string>
     <!-- Settings - System Tab - Import and Export Section -->
     <string name="settings_system_import_export">Импорт &amp; экспорт</string>
-    <string name="settings_system_keystore">Кейстор</string>
-    <string name="settings_system_import_keystore_description">Импортирует или экспортирует ваш keystore подписи</string>
+    <string name="settings_system_keystore">Хранилище ключей</string>
+    <string name="settings_system_import_keystore_description">Импортирует или экспортирует ваше хранилище ключей для подписи</string>
     <string name="settings_system_import_keystore_dialog_title">Введите учетные данные хранилища</string>
     <string name="settings_system_import_keystore_dialog_description">Вам нужно будет ввести учетные данные хранилища ключей, чтобы импортировать его</string>
     <string name="settings_system_import_keystore_dialog_alias_field">Имя пользователя (псевдоним)</string>
@@ -1172,6 +1172,9 @@ morphe_header_custom_dark.png
     <string name="importing_ellipsis">Импортирование…</string>
     <string name="imported_successfully">Импортировано успешно</string>
     <string name="changelog">Просмотр истории изменений</string>
+    <string name="changelog_for_app">Изменения для %s</string>
+    <string name="changelog_general_changes">Общие изменения</string>
+    <string name="whats_new">Что нового</string>
     <string name="changelog_description">Просмотрите последние изменения в этом обновлении</string>
     <string name="changelog_download_fail">Не удалось загрузить историю изменений: %s</string>
     <string name="changelog_empty">Нет доступных изменений</string>
@@ -1184,14 +1187,13 @@ morphe_header_custom_dark.png
     <string name="install_update_manager_failed">Не удалось установить обновление</string>
     <string name="installing_manager_update">Установка обновления…</string>
     <string name="downloading_manager_update">Загрузка обновления…</string>
-    <!-- Shown while resuming a download, before the total size is known -->
+    <!-- Shown while downloading, before the total size is known -->
     <string name="manager_update_progress_downloaded">Загружено %1$.1f МБ</string>
     <string name="manager_update_not_ready">Этот релиз еще публикуется. Попробуйте снова через несколько минут</string>
     <string name="update_download_missing">Загруженное обновление больше недоступно. Загрузите его снова</string>
     <string name="download_manager_failed">Не удалось загрузить обновление: %s</string>
     <string name="failed_to_check_updates">Не удалось проверить наличие обновлений: %s</string>
     <string name="failed_to_download_update">Не удалось загрузить обновление: %s</string>
-    <string name="resume_download">Возобновить загрузку</string>
     <string name="download_confirmation_metered">"Вы находитесь в сети с лимитным трафиком, и могут взиматься дополнительные платежи от вашего поставщика услуг.
 
 Вы все еще хотите продолжить?"</string>

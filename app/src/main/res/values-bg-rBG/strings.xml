@@ -1186,14 +1186,13 @@ morphe_header_custom_dark.png
     <string name="install_update_manager_failed">Неуспешно инсталиране на актуализиране</string>
     <string name="installing_manager_update">Инсталиране на актуализиране…</string>
     <string name="downloading_manager_update">Сваляне на актуализиране…</string>
-    <!-- Shown while resuming a download, before the total size is known -->
+    <!-- Shown while downloading, before the total size is known -->
     <string name="manager_update_progress_downloaded">%1$.1f MB изтеглени</string>
     <string name="manager_update_not_ready">Този релиз все още се публикува. Опитайте отново след няколко минути</string>
     <string name="update_download_missing">Изтеглената актуализация вече не е налична. Изтеглете я отново.</string>
     <string name="download_manager_failed">Неуспешно сваляне на актуализиране: %s</string>
     <string name="failed_to_check_updates">Неуспешна проверка за обновления: %s</string>
     <string name="failed_to_download_update">Неуспешно сваляне на обновление: %s</string>
-    <string name="resume_download">Продължи сваляне</string>
     <string name="download_confirmation_metered">"В момента сте свързани с ограничена връзка и такси за данни от доставчика ви може да се начислят.
 
 Искате ли да продължите още?"</string>

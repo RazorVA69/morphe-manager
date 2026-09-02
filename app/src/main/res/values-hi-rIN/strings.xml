@@ -1186,14 +1186,13 @@ morphe_header_custom_dark.png
     <string name="install_update_manager_failed">अपडेट स्थापित करने में विफल</string>
     <string name="installing_manager_update">अपडेट इंस्टॉल हो रहा है…</string>
     <string name="downloading_manager_update">अपडेट डाउनलोड हो रहा है…</string>
-    <!-- Shown while resuming a download, before the total size is known -->
+    <!-- Shown while downloading, before the total size is known -->
     <string name="manager_update_progress_downloaded">%1$.1f MB डाउनलोड किया गया</string>
     <string name="manager_update_not_ready">यह रिलीज़ अभी भी प्रकाशित की जा रही है। कुछ मिनटों में फिर प्रयास करें</string>
     <string name="update_download_missing">डाउनलोड किया गया अपडेट अब उपलब्ध नहीं है। इसे फिर से डाउनलोड करें</string>
     <string name="download_manager_failed">अपडेट डाउनलोड करने में विफल: %s</string>
     <string name="failed_to_check_updates">अपडेट के लिए जाँच करने में विफल: %s</string>
     <string name="failed_to_download_update">अपडेट डाउनलोड करने में विफल: %s</string>
-    <string name="resume_download">डाउनलोड फिर से शुरू करें</string>
     <string name="download_confirmation_metered">"आप मापित कनेक्शन पर हैं, और आपके सेवा प्रदाता से डेटा चार्ज लागू हो सकते हैं.
 
 क्या आप अभी भी आगे बढ़ना चाहते हैं?"</string>

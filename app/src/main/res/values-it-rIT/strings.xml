@@ -1187,14 +1187,13 @@ Dettagli: %2$s"</string>
     <string name="install_update_manager_failed">Impossibile installare l\'aggiornamento</string>
     <string name="installing_manager_update">Installazione dell\'aggiornamento in corso…</string>
     <string name="downloading_manager_update">Download dell\'aggiornamento in corso…</string>
-    <!-- Shown while resuming a download, before the total size is known -->
+    <!-- Shown while downloading, before the total size is known -->
     <string name="manager_update_progress_downloaded">%1$.1f MB scaricato</string>
     <string name="manager_update_not_ready">Questa versione è ancora in fase di pubblicazione. Riprova tra qualche minuto</string>
     <string name="update_download_missing">L\'aggiornamento scaricato non è più disponibile. Scaricalo di nuovo.</string>
     <string name="download_manager_failed">Impossibile scaricare l\'aggiornamento: %s</string>
     <string name="failed_to_check_updates">Impossibile verificare la presenza degli aggiornamenti: %s</string>
     <string name="failed_to_download_update">Impossibile scaricare l\'aggiornamento: %s</string>
-    <string name="resume_download">Riprendi il download</string>
     <string name="download_confirmation_metered">"Al momento sei connesso a una rete a consumo e potrebbero essere applicati costi aggiuntivi dal tuo operatore.
 
 Vuoi comunque continuare?"</string>

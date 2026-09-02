@@ -1185,14 +1185,13 @@ Podrobnosti: %2$s"</string>
     <string name="install_update_manager_failed">Selhání instalace aktualizace</string>
     <string name="installing_manager_update">Instaluje se aktualizace…</string>
     <string name="downloading_manager_update">Stahování aktualizace…</string>
-    <!-- Shown while resuming a download, before the total size is known -->
+    <!-- Shown while downloading, before the total size is known -->
     <string name="manager_update_progress_downloaded">Staženo %1$.1f MB</string>
     <string name="manager_update_not_ready">Toto vydání se stále publikuje. Zkuste to znovu za pár minut</string>
     <string name="update_download_missing">Stažená aktualizace již není k dispozici. Stáhněte ji znovu.</string>
     <string name="download_manager_failed">Selhání stahování aktualizace: %s</string>
     <string name="failed_to_check_updates">Selhání kontroly aktualizací: %s</string>
     <string name="failed_to_download_update">Selhání stahování aktualizace: %s</string>
-    <string name="resume_download">Obnovit stahování</string>
     <string name="download_confirmation_metered">"Používáte měřené připojení a mohou se vztahovat poplatky za data od vašeho poskytovatele služeb.
 
 Chcete přesto pokračovat?"</string>

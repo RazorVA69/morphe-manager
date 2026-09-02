@@ -1186,14 +1186,13 @@ Detalles: %2$s"</string>
     <string name="install_update_manager_failed">Error al instalar la actualización</string>
     <string name="installing_manager_update">Instalando actualización…</string>
     <string name="downloading_manager_update">Descargando actualización…</string>
-    <!-- Shown while resuming a download, before the total size is known -->
+    <!-- Shown while downloading, before the total size is known -->
     <string name="manager_update_progress_downloaded">%1$.1f MB descargados</string>
     <string name="manager_update_not_ready">Esta versión aún se está publicando. Vuelve a intentarlo en unos minutos</string>
     <string name="update_download_missing">La actualización descargada ya no está disponible. Descárgala de nuevo</string>
     <string name="download_manager_failed">Error al descargar la actualización: %s</string>
     <string name="failed_to_check_updates">Error al buscar actualizaciones: %s</string>
     <string name="failed_to_download_update">Error al descargar la actualización: %s</string>
-    <string name="resume_download">Reanudar descarga</string>
     <string name="download_confirmation_metered">"Actualmente estás en una conexión de uso medido y podrían aplicarse cargos por datos de tu proveedor de servicios.
 
 ¿Deseas continuar de todos modos?"</string>

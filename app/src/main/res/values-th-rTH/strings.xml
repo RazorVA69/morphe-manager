@@ -1186,14 +1186,13 @@ morphe_header_custom_dark.png
     <string name="install_update_manager_failed">ไม่สามารถติดตั้งอัปเดตได้</string>
     <string name="installing_manager_update">กำลังติดตั้งอัปเดต…</string>
     <string name="downloading_manager_update">กำลังดาวน์โหลดอัปเดต…</string>
-    <!-- Shown while resuming a download, before the total size is known -->
+    <!-- Shown while downloading, before the total size is known -->
     <string name="manager_update_progress_downloaded">ดาวน์โหลดแล้ว %1$.1f MB</string>
     <string name="manager_update_not_ready">รุ่นนี้ยังอยู่ในระหว่างการเผยแพร่ ลองอีกครั้งในไม่กี่นาที</string>
     <string name="update_download_missing">อัปเดตที่ดาวน์โหลดมาไม่พร้อมใช้งานอีกต่อไป ดาวน์โหลดอีกครั้ง</string>
     <string name="download_manager_failed">ไม่สามารถดาวน์โหลดอัปเดตได้: %s</string>
     <string name="failed_to_check_updates">ไม่สามารถตรวจสอบการอัปเดตได้: %s</string>
     <string name="failed_to_download_update">ไม่สามารถดาวน์โหลดอัปเดตได้: %s</string>
-    <string name="resume_download">ดำเนินการดาวน์โหลดต่อ</string>
     <string name="download_confirmation_metered">"ขณะนี้คุณกำลังเชื่อมต่อแบบจำกัดปริมาณข้อมูล และอาจมีค่าบริการข้อมูลจากผู้ให้บริการของคุณ
 
 คุณยังต้องการดำเนินการต่อหรือไม่?"</string>

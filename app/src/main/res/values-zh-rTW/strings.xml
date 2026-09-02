@@ -1183,14 +1183,13 @@ morphe_header_custom_dark.png
     <string name="install_update_manager_failed">無法安裝更新</string>
     <string name="installing_manager_update">正在安裝更新……</string>
     <string name="downloading_manager_update">正在下載更新……</string>
-    <!-- Shown while resuming a download, before the total size is known -->
+    <!-- Shown while downloading, before the total size is known -->
     <string name="manager_update_progress_downloaded">已下載 %1$.1f MB</string>
     <string name="manager_update_not_ready">此版本仍在發布中。請幾分鐘後再試</string>
     <string name="update_download_missing">下載的更新已不再可用。請重新下載</string>
     <string name="download_manager_failed">無法下載更新：%s</string>
     <string name="failed_to_check_updates">無法檢查更新：%s</string>
     <string name="failed_to_download_update">無法下載更新：%s</string>
-    <string name="resume_download">繼續下載</string>
     <string name="download_confirmation_metered">"\"您目前正使用計量付費連線，服務供應商可能會向您收取數據傳輸費用。
 
 您仍要繼續嗎？\""</string>

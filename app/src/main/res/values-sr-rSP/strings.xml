@@ -1186,14 +1186,13 @@ morphe_header_custom_dark.png
     <string name="install_update_manager_failed">Неуспешно инсталирање ажурирања</string>
     <string name="installing_manager_update">Инсталирање ажурирања…</string>
     <string name="downloading_manager_update">Преузимање ажурирања…</string>
-    <!-- Shown while resuming a download, before the total size is known -->
+    <!-- Shown while downloading, before the total size is known -->
     <string name="manager_update_progress_downloaded">Преузето %1$.1f MB</string>
     <string name="manager_update_not_ready">Овај издање је и даље у процесу објављивања. Покушајте поново за неколико минута</string>
     <string name="update_download_missing">Преузето ажурирање више није доступно. Преузмите га поново.</string>
     <string name="download_manager_failed">Није успело преузимање ажурирања: %s</string>
     <string name="failed_to_check_updates">Није успело провера ажурирања: %s</string>
     <string name="failed_to_download_update">Није успело преузимање ажурирања: %s</string>
-    <string name="resume_download">Настави преузимање</string>
     <string name="download_confirmation_metered">"Тренутно сте на вези са ограниченим подацима, а могу се примењивати трошкови за пренос података вашег оператера.
 
 Да ли и даље желите да наставите?"</string>

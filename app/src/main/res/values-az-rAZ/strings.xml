@@ -1171,6 +1171,9 @@ Təfərrüatlar: %2$s"</string>
     <string name="importing_ellipsis">İdxal olunur…</string>
     <string name="imported_successfully">Uğurla idxal olundu</string>
     <string name="changelog">Dəyişiklik jurnallarına bax</string>
+    <string name="changelog_for_app">%s üçün dəyişikliklər</string>
+    <string name="changelog_general_changes">Ümumi dəyişikliklər</string>
+    <string name="whats_new">Nə yenidir</string>
     <string name="changelog_description">Bu yeniləmədəki ən son dəyişikliklərə nəzər sal</string>
     <string name="changelog_download_fail">Dəyişiklik jurnalın yükləmək olmadı: %s</string>
     <string name="changelog_empty">Dəyişiklik jurnalı mövcud deyil</string>
@@ -1183,14 +1186,13 @@ Təfərrüatlar: %2$s"</string>
     <string name="install_update_manager_failed">Yeniləməni quraşdırmaq olmadı</string>
     <string name="installing_manager_update">Yeniləmə quraşdırılır…</string>
     <string name="downloading_manager_update">Yenilənmə yüklənilir…</string>
-    <!-- Shown while resuming a download, before the total size is known -->
+    <!-- Shown while downloading, before the total size is known -->
     <string name="manager_update_progress_downloaded">%1$.1f MB yüklənildi</string>
     <string name="manager_update_not_ready">Bu buraxılış hələ də dərc olunur. Bir neçə dəqiqə sonra təkrar cəhd et</string>
     <string name="update_download_missing">Yüklənilmiş yeniləmə artıq əlçatan deyil. Onu təkrar yüklə</string>
     <string name="download_manager_failed">Yeniləməni yükləmək olmadı: %s</string>
     <string name="failed_to_check_updates">Yeniləmələri yoxlamaq uğursuzdu: %s</string>
     <string name="failed_to_download_update">Yeniləməni yükləmək olmadı: %s</string>
-    <string name="resume_download">Yükləməni davam etdir</string>
     <string name="download_confirmation_metered">"Hazırda ölçülən əlaqədəsiniz və xidmət təminatçınızdan məlumat ödənişləri tətbiq oluna bilər.
 
 Hələ də davam etmək istəyirsiniz?"</string>
