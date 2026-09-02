@@ -16,7 +16,6 @@ jobs:
       - name: Checkout upstream
         uses: actions/checkout@v6
         with:
-          repository: MorpheApp/morphe-manager
           ref: dev
           path: source
 
