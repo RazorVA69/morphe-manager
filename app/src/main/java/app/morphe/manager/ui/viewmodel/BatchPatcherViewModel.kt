@@ -35,14 +35,17 @@ import app.morphe.manager.domain.repository.PatchSelectionRepository
 import app.morphe.manager.patcher.patch.*
 import app.morphe.manager.ui.model.ApkDownloadHelperHost
 import app.morphe.manager.ui.model.toHelperFileType
+import app.morphe.manager.ui.screen.shared.CopySelectionCandidate
 import app.morphe.manager.util.*
 import app.morphe.manager.util.PatchSelectionUtils.applyAvailability
 import app.morphe.manager.util.PatchSelectionUtils.bulkEnableHoldsUniversal
 import app.morphe.manager.util.PatchSelectionUtils.bulkEnablePatches
+import app.morphe.manager.util.PatchSelectionUtils.mergeBundleOptions
 import app.morphe.manager.util.PatchSelectionUtils.resetOptionsForPatch
 import app.morphe.manager.util.PatchSelectionUtils.spansMultipleBundles
 import app.morphe.manager.util.PatchSelectionUtils.togglePatch
 import app.morphe.manager.util.PatchSelectionUtils.updateOption
+import app.morphe.manager.util.PatchSelectionUtils.withBundle
 import app.morphe.patcher.patch.ApkArchitecture
 import app.morphe.patcher.patch.AppTarget
 import app.morphe.patcher.patch.InstallerType
@@ -63,6 +66,9 @@ import java.io.File
  */
 class BatchPatchEdit(
     val itemId: String,
+    /** Key this item saves its patches and options under, and the one a copy excludes itself by. */
+    val configurationKey: String,
+    val appName: String,
     val bundles: List<PatchBundleInfo.Scoped>,
     val savedSelection: PatchSelection,
     val newPatches: Map<Int, Set<String>>,
@@ -95,8 +101,6 @@ class BatchPatchEdit(
             .sortedByDescending { (bundle, _) -> bundle.compatible.size }
 
     val totalSelectedCount get() = selection.values.sumOf { it.size }
-
-    val totalPatchesCount get() = allPatchesInfo.sumOf { it.second.size }
 
     val hasMultipleBundles get() = selection.spansMultipleBundles()
 
@@ -181,10 +185,17 @@ class BatchPatchEdit(
         options = options.resetOptionsForPatch(bundleUid, patchName)
     }
 
+    /** Patch schema of [bundleUid], which a copied selection is filtered against. */
+    fun patchesOf(bundleUid: Int) = patchesByName[bundleUid].orEmpty()
+
+    /** Replaces the selection of [bundleUid] with one copied from another bundle. */
+    fun applyCopy(bundleUid: Int, copied: CopiedSelection) {
+        replaceBundle(bundleUid, copied.patches)
+        options = options.mergeBundleOptions(bundleUid, copied.options)
+    }
+
     private fun replaceBundle(bundleUid: Int, patches: Set<String>) {
-        selection = selection.toMutableMap()
-            .apply { if (patches.isEmpty()) remove(bundleUid) else put(bundleUid, patches) }
-            .applyItemAvailability()
+        selection = selection.withBundle(bundleUid, patches).applyItemAvailability()
     }
 
     /** Availability rules of the install target, so an edit lands on the plan already settled. */
@@ -430,6 +441,9 @@ class BatchPatcherViewModel : ViewModel(), KoinComponent, ApkDownloadHelperHost 
     var edit: BatchPatchEdit? by mutableStateOf(null)
         private set
 
+    /** Picker behind the copy-from-another-bundle action of the editor. */
+    val editCopy = CopySelectionController()
+
     /**
      * Opens the editor for [item], scoping the patch list to the exact APK version the queue
      * resolved so the user never sees patches that could not run against it anyway.
@@ -454,6 +468,8 @@ class BatchPatcherViewModel : ViewModel(), KoinComponent, ApkDownloadHelperHost 
 
             edit = BatchPatchEdit(
                 itemId = item.id,
+                configurationKey = item.configurationKey,
+                appName = item.appName,
                 bundles = bundles,
                 savedSelection = item.selection,
                 newPatches = newPatches,
@@ -470,8 +486,39 @@ class BatchPatcherViewModel : ViewModel(), KoinComponent, ApkDownloadHelperHost 
         }
     }
 
+    /** Opens the copy-from-another-bundle picker for [targetBundleUid] of the open editor. */
+    fun openEditCopyDialog(targetBundleUid: Int) {
+        val current = edit ?: return
+        editCopy.open(
+            scope = viewModelScope,
+            targetPackageName = current.configurationKey,
+            targetBundleUid = targetBundleUid,
+            targetPatchNames = current.patchesOf(targetBundleUid).keys
+        )
+    }
+
+    /**
+     * Applies a picked [candidate] to the open editor. Changes reach the plan only when the
+     * user confirms the editor, and the database only after the run itself.
+     */
+    fun applyEditCopy(candidate: CopySelectionCandidate) {
+        val current = edit ?: return
+        val targetBundleUid = editCopy.targetBundleUid ?: return
+
+        viewModelScope.launch {
+            val copied = editCopy.resolve(
+                candidate = candidate,
+                targetPatches = current.patchesOf(targetBundleUid)
+            ) ?: return@launch
+
+            current.applyCopy(targetBundleUid, copied)
+            editCopy.finish(copied.patches.size)
+        }
+    }
+
     fun cancelEdit() {
         edit = null
+        editCopy.close()
     }
 
     /**
@@ -501,6 +548,7 @@ class BatchPatcherViewModel : ViewModel(), KoinComponent, ApkDownloadHelperHost 
         val current = edit ?: return
         coordinator.updateSelection(current.itemId, current.selection, current.options)
         edit = null
+        editCopy.close()
     }
 
     /**
